@@ -29,7 +29,7 @@ data_set = read_csv(file_name, names=column_names)
 data_correlation = data_set.corr()
 
 #To draw correlation plot
-figure = pyplot.figure()
+figure = pyplot.figure("Correlation_matrix_plot")
 pane = figure.add_subplot(111)
 outer = pane.matshow(data_correlation, vmin=-1, vmax=1)
 figure.colorbar(outer)

@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 10 12:57:14 2023
 
-@author: mohsen
+@author: mohsenshojaeiyeganeh@gmail.com
 """
 
 from matplotlib import pyplot
@@ -29,4 +29,5 @@ data_set = read_csv(file_name, names=column_names)
 
 #To draw correlation plot
 scatter_matrix(data_set)
+pyplot.title("Scatter_matrix_plot")
 pyplot.show()
